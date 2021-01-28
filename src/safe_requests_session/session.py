@@ -3,6 +3,7 @@ A requests session that retries on errors and timeouts instead of hanging.
 
 Adapted from:
 https://findwork.dev/blog/advanced-usage-python-requests-timeouts-retries-hooks/
+https://www.peterbe.com/plog/best-practice-with-retries-with-requests
 
 Usage:
 # try:
@@ -19,7 +20,6 @@ Usage:
 
 requests Exception treatment source:
 https://stackoverflow.com/questions/16511337/correct-way-to-try-except-using-python-requests-module
-
 """
 from typing import List, Optional, Union
 

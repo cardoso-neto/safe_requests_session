@@ -36,6 +36,6 @@ setuptools.setup(
             # 'script-name=module:function',
         ],
     },
-    python_requires=">=3.8, <3.9",
+    python_requires=">=3.7, <3.10",
     install_requires=requirements,
 )
